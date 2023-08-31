@@ -1,6 +1,5 @@
-import { useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { PostProvider, usePosts, createRandomPost } from "./PostProvider";
-import { faker } from "@faker-js/faker";
 
 function App() {
   const [isFakeDark, setIsFakeDark] = useState(false);
